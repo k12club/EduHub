@@ -1,0 +1,300 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #F2F2F2;
+}
+html{
+  box-sizing: border-box;
+}
+h1,h2,h3,p,h4,label{
+  margin: 0;
+  padding: 0;
+
+}
+
+#mainHeader{
+
+  background-color: white;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+#menu{
+
+  width: 100%;
+  background-color: #fff;
+  height: : 200px;
+  background-color: #EE4C3F;
+
+}
+.mainContent{
+  width: 1024px;
+  margin: 0 auto;
+
+}
+
+.logoSection{
+  display: inline-block;
+  width: 400px;
+  color:#EE4C3F;
+font-size: 25px;
+  position: relative;
+  bottom: 30px;
+
+}
+.ContatInfo{
+  display: inline-block;
+  width: 610px;
+
+}
+.innerContact1{
+
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  color:#3A3A3B;
+
+}
+
+.innerContact2{
+  color:#3A3A3B;
+  width: 400px;
+  display: inline-block;
+
+}
+#menu ul{
+  margin: 0;
+  list-style-type:none;
+  overflow: hidden;
+  padding: 0;
+}
+#menu ul li{
+  float: left;
+}
+#menu ul li a{
+  font-weight: 700;
+  margin: 0;
+  text-decoration: none;
+  display: block;
+  padding: 20px 40px 20px 40px;
+  color:#fff;
+  text-align: center;
+}
+#menu ul li a:hover{
+  background-color: #fff;
+    color:#EE4C3F;
+}
+
+.mainContent ul{
+  margin: 0;
+  display: block;
+
+}
+.mainContent ul li {
+  display: inline-block;
+}
+.mainContent ul li a{
+  text-decoration: none;
+  color:#595959;
+}
+.mainContent ul li input{
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #E5E5E5;
+  border:none;
+  border-radius: 3px;
+  width: 140px;
+}
+.mainContent button{
+  padding: 10px 15px 10px 15px;
+  border-radius: 3px;
+}
+#loginBtn{
+  background-color: #d43f3a;
+  border: none;
+  color:#fff
+}
+#register{
+  background-color: #332f2e;
+  border: none;
+  color:#fff
+}
+label{
+  padding: 20px 5px 5px 0px;
+  display: block;
+  color:#595959;
+}
+#BigImage{
+  width: 100%;
+  background-image:url(../images/bigImages.jpeg);
+  height: 500px;
+  background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.formFillup{
+  background-color: #EE4C3F;
+  padding: 40px;
+  position: relative;
+  top: 340px;
+  left: 15px;
+  border-radius: 5px;
+}
+
+.formFillup li{
+  margin-left: 15px;
+}
+.formFillup li input[type="text"]{
+  margin-bottom: 0;
+  background-color:#fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.formFillup li button{
+  background: #3a3a3b;
+  color:#fff;
+  border: none;
+  padding: 10px 40px 10px 40px;
+}
+#ourProgram{
+  margin-top:20px;
+  background-color:  #F2F2F2;
+}
+.box{
+  width: 321px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.box h1{
+  font-size: 50px;
+  padding-top: 20px;
+  color:#ee4c3f;
+}
+.box h4{
+  padding: 10px;
+  color:#ee4c3f;
+}
+.box p{
+  color:#595959;
+  padding: 10px;
+}
+.box button{
+  background-color: #ee4c3f;
+  border: none;
+  color:#fff;
+}
+#about{
+
+  margin-top: 20px;
+  width: 100%;
+  background-color: #fff;
+}
+.innerContent{
+  text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.innerContent h4{
+  color:#ee4c3f;
+  font-size: 20px;
+}
+.innerContent p{
+  padding-bottom: 20px;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+#newsLetter{
+  background-color: #3a3a3b;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  color:#fff;
+}
+#newsLetter h1{
+  margin: 20px;
+}
+#newsLetter input[type="text"]{
+  width: 500px;
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  border-radius: 3px;
+}
+#newsLetter ::-webkit-input.placeholder {
+    text-align: center;
+}
+
+footer{
+
+  text-align:center;
+background-color:#F2F2F2;
+color:#bbb;
+padding: 20px;
+}
+#footerInfo{
+  padding-top: 50px;
+  padding-bottom: 50px;
+background-color: #fff;
+}
+.grid1{
+  padding: 10px;
+  width: 230px;
+  background: #fff;
+
+  display: inline-block;
+}
+.grid1 ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+.grid1 ul li{
+  padding-top: 10px;
+
+}
+.grid1 ul li a{
+  color:#a9a4a4;
+
+}
+.grid1 h4{
+  color:#7e7e80;
+}
+.navRegister a{
+  color:#fff
+}
+
+#primary a{
+  color:#ee4c3f;
+}
+.active{
+  .background-color: #fff;
+  color:#EE4C3F;
+}
+
+/*Contact Page Style*/
+
+.contactBox{
+
+padding-top:  40px;
+padding-bottom: 40px;
+}
+.contactBox  input[type="text"],select,input[type="password"]{
+  width: 300px;
+padding: 10px;
+}
+.promo{
+background-color: #fff;
+border: 1px solid #ee4c3f;
+padding: 20px;
+display: block;
+
+}
